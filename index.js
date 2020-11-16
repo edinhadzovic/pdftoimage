@@ -22,7 +22,7 @@ const main = function(pdfPath, outputPath) {
         prefix: 'tiff',
         outdir: outputPath,
     }).then(() => {
-        console.log("Conservation is done");
+        console.log("TiFFs generated.");
     }).catch(error => console.log(error));
 }
 
